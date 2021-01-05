@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    min-height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+/* intial nav box */
+nav{
+    position: fixed;
+    width: 60px;
+    max-width: 350px;
+    height:100vh;
+    background-color: #838BC5;
+}
+
+#menu_logo{
+    color: #ffffff;   
+}
+
+#menu_logo p{
+    width:100%;
+    text-align: center;
+}
+
+#menu_logo label{
+
+    display: inline-block;
+
+    line-height: 150px;
+    font-size: 50px;
+
+}
+
+#menu_logo label i:hover{
+    color: #65C8D0;
+    transition: all .3s;
+}
+
+#menu_logo input[type=checkbox]{
+    display: none;
+
+}
+
+
+/* menu element initialisation*/
+
+#menu_element{
+    font-size: 1.6em;
+    display: none;
+}
+#menu_element ul{
+    width: 100%;
+    height: 100%;    
+}
+#menu_element ul li{
+    line-height: 80px;
+    text-align: center;   
+}
+
+#menu_element ul li a{
+    color: #ffffff;   
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+
+#menu_element ul li a:hover{
+    color: #65C8D0;
+    transition: all .3s;
+}
+
+
