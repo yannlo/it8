@@ -74,7 +74,7 @@ nav #menu_element #active{
 }
 
 /* responsive menu */
-@media (max-width:400px){
+@media (max-width:450px){
     #menu_logo label{
 
         font-size: 40px;
@@ -92,5 +92,79 @@ nav #menu_element #active{
 
 
 }
+
+/* corps de page */
+
+#content{
+    width: 75%;
+    margin: 0 0  0 25%;
+    padding-top: 70px;
+}
+
+#content h1{
+    padding-bottom: 40px;
+    width: 80%;
+    margin: 0 0  0 10%;
+    font-size: 3em;
+    color: #65C8D0;
+}
+
+#content .content_parti{
+    padding-bottom: 40px;
+}
+
+#content .content_parti h2{
+    padding-bottom: 30px;
+    font-size: 2em;
+    color: #965096;
+}
+
+
+/* responsive content */
+@media (max-width:450px){
+    #content h1{
+        font-size: 2.7em;
+    }
+    #content .content_parti h2{
+        font-size: 1.7em;
+    }
+
+}
+
+
+table{
+    width: 80%;
+    border-collapse: collapse;
+}
+
+td,tr,th{
+    text-align: center;
+    border: 2px white solid;
+
+}
+th{
+    color: #fff;
+    background-color: #965096;
+    font-size:1.4em;
+    line-height:50px;
+}
+
+table tr:nth-child(even){
+    background-color:#BA9BC9;
+    color: #fff;
+
+}
+table tr:nth-child(odd){
+    background-color:#E6E6E6;
+    color: #383838;
+
+}
+
+td{
+    font-size:1.2em;
+    line-height:40px;
+
+}
+
 
 
