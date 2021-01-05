@@ -15,8 +15,6 @@ check.addEventListener("click",function(event){
         menu.style.transition=".5s";
         menu_element.style.transition=".2s";
 
-
-
     }else{
 
         menu_element.style.display="block";

@@ -35,10 +35,6 @@ nav{
 
 }
 
-#menu_logo label i:hover{
-    color: #65C8D0;
-    transition: all .3s;
-}
 
 #menu_logo input[type=checkbox]{
     display: none;
@@ -71,6 +67,30 @@ nav{
 #menu_element ul li a:hover{
     color: #65C8D0;
     transition: all .3s;
+}
+nav #menu_element #active{
+    color: #65C8D0;
+    font-size:1.2em;
+}
+
+/* responsive menu */
+@media (max-width:400px){
+    #menu_logo label{
+
+        font-size: 40px;
+    
+    }
+
+    #menu_element{
+        font-size: 1.2em;
+    }
+
+    #menu_element ul li{
+        line-height: 60px;
+        text-align: center;   
+    }
+
+
 }
 
 
